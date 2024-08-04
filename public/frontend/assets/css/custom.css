@@ -1,0 +1,8 @@
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-item {
+    margin: 0 12px;
+}
