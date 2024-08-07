@@ -10,6 +10,7 @@ class BlogController extends Controller
 {
     public function index()
     {
+      // Trả về các blogs
         $blogs = User::all()->toArray();
         return response()->json($blogs);
     }
