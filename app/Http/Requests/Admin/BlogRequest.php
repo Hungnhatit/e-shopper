@@ -33,7 +33,7 @@ class BlogRequest extends FormRequest
   {
     return [
       'image.mimes' => ':attribute phải là định dạng jpg, jpeg, png, gif',
-      'image.max' => ':attribute không được lớn hơn :max'
+      'image.max' => ':attribute không được lớn hơn :max MB'
     ];
 
   }
